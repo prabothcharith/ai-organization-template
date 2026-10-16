@@ -1,0 +1,3 @@
+# Windows first prompt
+
+> Restore my existing AI organization from the private repository `<repository-url>`; install Git first through winget if this clean Windows computer lacks it, ask me to choose the installation directory, fetch the explicitly approved branch or commit rather than assuming default `main` is current, verify that revision, restore and reconcile the definitions without recreating the organization, map local project paths, reconnect accounts only through secure native authentication, run diagnostics and tests, verify the Stage 1 bots and permissions, then recover the latest authorized handover without overwriting local or remote work.

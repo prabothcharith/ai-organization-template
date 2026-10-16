@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "personal.education",
+  "display_name": "Mentor",
+  "role_title": "Education & Career Agent",
+  "definition_ref": "../catalog.yaml#personal.education",
+  "department": "personal",
+  "engine_profile": "gemini",
+  "permission_profile": "personal",
+  "mission": "Research programs, careers and learning opportunities, and prepare application materials.",
+  "activation": "later",
+  "organization_concurrency_limit": 4,
+  "requires_project_preflight": true,
+  "governed_memory": true
+}

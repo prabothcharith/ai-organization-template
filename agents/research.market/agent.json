@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "research.market",
+  "display_name": "Scout",
+  "role_title": "Market Intelligence",
+  "definition_ref": "../catalog.yaml#research.market",
+  "department": "research",
+  "engine_profile": "gemini",
+  "permission_profile": "research",
+  "mission": "Study demand, competitor positions, pricing, distribution, market gaps and revenue feasibility.",
+  "activation": "later",
+  "organization_concurrency_limit": 4,
+  "requires_project_preflight": true,
+  "governed_memory": true
+}

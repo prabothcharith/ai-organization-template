@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "creative.visual",
+  "display_name": "Prism",
+  "role_title": "Visual Designer",
+  "definition_ref": "../catalog.yaml#creative.visual",
+  "department": "creative",
+  "engine_profile": "gemini",
+  "permission_profile": "creative",
+  "mission": "Prepare design concepts, thumbnails, layout briefs and authorized visual assets.",
+  "activation": "later",
+  "organization_concurrency_limit": 4,
+  "requires_project_preflight": true,
+  "governed_memory": true
+}

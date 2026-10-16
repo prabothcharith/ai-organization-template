@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "personal.finance",
+  "display_name": "Ledger",
+  "role_title": "Financial & Administrative Research Agent",
+  "definition_ref": "../catalog.yaml#personal.finance",
+  "department": "personal",
+  "engine_profile": "gemini",
+  "permission_profile": "financial-readonly",
+  "mission": "Compare budgets, loans and financial documents with read-only tools.",
+  "activation": "later",
+  "organization_concurrency_limit": 4,
+  "requires_project_preflight": true,
+  "governed_memory": true
+}

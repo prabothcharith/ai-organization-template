@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "personal.travel",
+  "display_name": "Wayfinder",
+  "role_title": "Travel & Life Administration Agent",
+  "definition_ref": "../catalog.yaml#personal.travel",
+  "department": "personal",
+  "engine_profile": "gemini",
+  "permission_profile": "personal",
+  "mission": "Plan travel, relocation tasks, document requirements and deadlines.",
+  "activation": "later",
+  "organization_concurrency_limit": 4,
+  "requires_project_preflight": true,
+  "governed_memory": true
+}

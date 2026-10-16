@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "research.product",
+  "display_name": "Compass",
+  "role_title": "Product Strategist",
+  "definition_ref": "../catalog.yaml#research.product",
+  "department": "research",
+  "engine_profile": "gemini",
+  "permission_profile": "product",
+  "mission": "Synthesize evidence into product requirements, scope, roadmap, priorities and acceptance criteria.",
+  "activation": "later",
+  "organization_concurrency_limit": 4,
+  "requires_project_preflight": true,
+  "governed_memory": true
+}

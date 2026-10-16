@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "creative.creator",
+  "display_name": "Spark",
+  "role_title": "Content Creator",
+  "definition_ref": "../catalog.yaml#creative.creator",
+  "department": "creative",
+  "engine_profile": "gemini",
+  "permission_profile": "creative",
+  "mission": "Create scripts, Sinhala/English copy, captions, titles, descriptions and editorial drafts.",
+  "activation": "later",
+  "organization_concurrency_limit": 4,
+  "requires_project_preflight": true,
+  "governed_memory": true
+}

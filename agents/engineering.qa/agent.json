@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "engineering.qa",
+  "display_name": "Sentinel",
+  "role_title": "QA & Security Engineer",
+  "definition_ref": "../catalog.yaml#engineering.qa",
+  "department": "engineering",
+  "engine_profile": "codex",
+  "permission_profile": "quality",
+  "mission": "Review independent evidence, automate tests, reproduce defects and inspect security risks.",
+  "activation": "core",
+  "organization_concurrency_limit": 4,
+  "requires_project_preflight": true,
+  "governed_memory": true
+}

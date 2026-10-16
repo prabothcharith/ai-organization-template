@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "chief.orchestrator",
+  "display_name": "Nexus",
+  "role_title": "Chief Orchestrator / AI Organization Director",
+  "definition_ref": "../catalog.yaml#chief.orchestrator",
+  "department": "management",
+  "engine_profile": "gemini",
+  "permission_profile": "chief",
+  "mission": "Plan and coordinate approved multi-agent workflows; delegate dependencies, replan stalled work, monitor four-agent organization cap, synchronize traceable progress.",
+  "activation": "core",
+  "organization_concurrency_limit": 4,
+  "requires_project_preflight": true,
+  "governed_memory": true
+}

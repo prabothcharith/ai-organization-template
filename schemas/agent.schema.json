@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/ai-organization/template/main/schemas/agent.schema.json",
+  "title": "AI Organization agent manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "id", "display_name", "role_title", "definition_ref",
+    "department", "engine_profile", "permission_profile", "mission", "activation",
+    "organization_concurrency_limit", "requires_project_preflight", "governed_memory"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "id": {"type": "string", "pattern": "^[a-z]+(?:[.-][a-z]+)+$"},
+    "display_name": {"type": "string", "minLength": 1},
+    "role_title": {"type": "string", "minLength": 1},
+    "definition_ref": {"type": "string", "pattern": "^\\.\\./catalog\\.yaml#[a-z]+(?:[.-][a-z]+)+$"},
+    "department": {"type": "string", "minLength": 1},
+    "engine_profile": {"enum": ["codex", "gemini"]},
+    "permission_profile": {"type": "string", "minLength": 1},
+    "mission": {"type": "string", "minLength": 1},
+    "activation": {"enum": ["core", "later"]},
+    "organization_concurrency_limit": {"const": 4},
+    "requires_project_preflight": {"const": true},
+    "governed_memory": {"const": true}
+  }
+}

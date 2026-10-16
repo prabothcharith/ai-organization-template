@@ -1,0 +1,42 @@
+# Native OpenMausBot declarative team configuration; no local paths, credentials, or model IDs.
+# Requires an authenticated provider and manually selected default engine/model.
+# Computer capabilities are machine-specific; select and validate them in the app on Mac/Windows.
+# Validate first: openmausbot team apply teams/core.yaml --dry-run
+version: 1
+teams:
+  - name: AI Organization
+    brief: { file: ../policies/team-brief.md }
+    prune: false
+bots:
+  - name: Nexus
+    team: AI Organization
+    title: Chief Orchestrator / AI Organization Director
+    description: Coordinates work while enforcing portable state and approval policies.
+    chief: true
+    soul: { file: ../agents/chief.orchestrator/SOUL.md }
+    approval: ask
+  - name: Atlas
+    team: AI Organization
+    title: Software Architect
+    soul: { file: ../agents/engineering.architect/SOUL.md }
+    approval: ask
+  - name: Nova
+    team: AI Organization
+    title: Frontend Developer
+    soul: { file: ../agents/engineering.frontend/SOUL.md }
+    approval: ask
+  - name: Forge
+    team: AI Organization
+    title: Backend Developer
+    soul: { file: ../agents/engineering.backend/SOUL.md }
+    approval: ask
+  - name: Sentinel
+    team: AI Organization
+    title: QA & Security Engineer
+    soul: { file: ../agents/engineering.qa/SOUL.md }
+    approval: ask
+  - name: Relay
+    team: AI Organization
+    title: GitHub & NPM Manager
+    soul: { file: ../agents/engineering.release/SOUL.md }
+    approval: ask

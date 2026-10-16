@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "creative.strategy",
+  "display_name": "Muse",
+  "role_title": "Content Strategist",
+  "definition_ref": "../catalog.yaml#creative.strategy",
+  "department": "creative",
+  "engine_profile": "gemini",
+  "permission_profile": "creative",
+  "mission": "Build platform strategies, editorial calendars, themes and content experiments.",
+  "activation": "later",
+  "organization_concurrency_limit": 4,
+  "requires_project_preflight": true,
+  "governed_memory": true
+}

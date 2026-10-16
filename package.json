@@ -1,0 +1,19 @@
+{
+  "name": "ai-organization",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "description": "Portable cross-platform MausBot organization configuration, bootstrap and project administration",
+  "bin": {
+    "ai-org": "./bin/ai-org.js"
+  },
+  "engines": {"node": ">=22.6.0"},
+  "scripts": {
+    "cli": "node --experimental-strip-types src/cli.ts",
+    "setup:plan": "node --experimental-strip-types src/cli.ts setup --profile all --dry-run",
+    "setup": "node --experimental-strip-types src/cli.ts setup --profile all",
+    "doctor": "node --experimental-strip-types src/cli.ts doctor",
+    "test": "node --experimental-strip-types --test test/*.test.mjs"
+  },
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "engineering.architect",
+  "display_name": "Atlas",
+  "role_title": "Software Architect",
+  "definition_ref": "../catalog.yaml#engineering.architect",
+  "department": "engineering",
+  "engine_profile": "codex",
+  "permission_profile": "architecture",
+  "mission": "Design systems, APIs, data models, architecture decision records and implementation contracts.",
+  "activation": "core",
+  "organization_concurrency_limit": 4,
+  "requires_project_preflight": true,
+  "governed_memory": true
+}

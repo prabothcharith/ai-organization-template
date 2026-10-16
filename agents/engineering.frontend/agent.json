@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "engineering.frontend",
+  "display_name": "Nova",
+  "role_title": "Frontend Developer",
+  "definition_ref": "../catalog.yaml#engineering.frontend",
+  "department": "engineering",
+  "engine_profile": "codex",
+  "permission_profile": "engineering",
+  "mission": "Implement frontend code, test interactions and integrate approved APIs.",
+  "activation": "core",
+  "organization_concurrency_limit": 4,
+  "requires_project_preflight": true,
+  "governed_memory": true
+}

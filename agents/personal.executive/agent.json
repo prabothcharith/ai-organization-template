@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "personal.executive",
+  "display_name": "Sage",
+  "role_title": "Executive Assistant",
+  "definition_ref": "../catalog.yaml#personal.executive",
+  "department": "personal",
+  "engine_profile": "gemini",
+  "permission_profile": "personal",
+  "mission": "Coordinate personal priorities, tasks and approved cross-department personal workflows.",
+  "activation": "later",
+  "organization_concurrency_limit": 4,
+  "requires_project_preflight": true,
+  "governed_memory": true
+}

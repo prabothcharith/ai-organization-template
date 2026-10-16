@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "creative.video",
+  "display_name": "Frame",
+  "role_title": "Video Production Agent",
+  "definition_ref": "../catalog.yaml#creative.video",
+  "department": "creative",
+  "engine_profile": "gemini",
+  "permission_profile": "media",
+  "mission": "Plan edit workflows, subtitles, FFmpeg tasks and permitted DaVinci Resolve integrations.",
+  "activation": "later",
+  "organization_concurrency_limit": 4,
+  "requires_project_preflight": true,
+  "governed_memory": true
+}

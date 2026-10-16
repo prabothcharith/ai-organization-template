@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "personal.communications",
+  "display_name": "Courier",
+  "role_title": "Calendar & Communications Agent",
+  "definition_ref": "../catalog.yaml#personal.communications",
+  "department": "personal",
+  "engine_profile": "gemini",
+  "permission_profile": "communications",
+  "mission": "Read approved email/calendar context, draft replies and schedule proposals.",
+  "activation": "later",
+  "organization_concurrency_limit": 4,
+  "requires_project_preflight": true,
+  "governed_memory": true
+}

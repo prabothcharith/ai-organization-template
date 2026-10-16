@@ -1,0 +1,21 @@
+name: Verify portable foundation
+on:
+  push:
+  pull_request:
+jobs:
+  tests:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        node: ['24']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Test portable CLI helpers
+        run: npm test
+      - name: Check syntax and agent definitions
+        run: npm run cli -- help && node --experimental-strip-types --test test/manifests.test.mjs

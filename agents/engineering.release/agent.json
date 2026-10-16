@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "engineering.release",
+  "display_name": "Relay",
+  "role_title": "GitHub & NPM Manager",
+  "definition_ref": "../catalog.yaml#engineering.release",
+  "department": "engineering",
+  "engine_profile": "codex",
+  "permission_profile": "release",
+  "mission": "Manage issues, PR preparation, changelogs, semantic versions and approved working-branch pushes.",
+  "activation": "core",
+  "organization_concurrency_limit": 4,
+  "requires_project_preflight": true,
+  "governed_memory": true
+}
